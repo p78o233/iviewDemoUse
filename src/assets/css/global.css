@@ -1,0 +1,136 @@
+span:hover{
+	cursor: pointer;
+	font-weight: bold;
+}
+.label-title{
+	text-align: center;
+	font-size: 20px;
+	display: block;
+}
+.txt-remark{
+	color: red;
+}
+.edit-btn{
+	color: #2d8cf0;
+	white-space: nowrap;
+}
+.delete-btn{
+	color: #ed4014;
+	white-space: nowrap;
+}
+.set-btn{
+	color: #19be6b;
+	white-space: nowrap;
+}
+
+.user-btn{
+	color: #8A2BE2;
+	white-space: nowrap;
+}
+
+.level-btn{
+	color: #ff9900;
+	white-space: nowrap;
+}
+.table-container {
+  width: 100%;
+  height:86%;
+  margin-top: 20px;
+  position:relative;
+}
+.pop-content{
+  width:80%;
+  margin:0 auto;
+  word-break: break-all;
+}
+.table-scroll{
+	height:90%;
+	overflow-y: scroll;
+}
+.page-sty{
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}
+
+.myInput{
+	display: inline-block;
+	width: 100%;
+	height: 32px;
+	line-height: 1.5;
+	padding: 4px 7px;
+	font-size: 12px;
+	border: 1px solid #dcdee2;
+	border-radius: 4px;
+	color: #515a6e;
+	background-color: #fff;
+	background-image: none;
+	position: relative;
+	cursor: text;
+	transition: border .2s ease-in-out,background .2s ease-in-out,box-shadow .2s ease-in-out;
+}
+.avatar,.avatar-img{
+	width: 150px;
+	height: 150px;
+	line-height: 135px;
+	border: 1px dashed #ccc;
+	border-radius: 4px;
+	font-size:40px;
+	text-align: center;
+}
+.avatar:hover{
+	border: 1px dashed #2d8cf0;
+	cursor: pointer;
+}
+.image-box{
+	position:relative;
+	width: 150px;
+	height: 150px;
+}
+.image-box span{
+	position:absolute;
+	top: -15px;
+	right: -15px;
+	width: 30px;
+	font-size:30px;
+	text-align: center;
+	border-radius: 25px;
+	border: 1px solid #ccc;
+	background:#fff;
+}
+.image-box span:hover{
+	color: red;
+}
+
+.pop-img{
+	width:100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.td_img{
+	height: 80px;
+	width:80px;
+}
+.totalBox{
+	display: flex;
+}
+.totalNum{
+	line-height: 32px;
+	margin-right: 10px;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
+::-webkit-scrollbar  
+{  
+	width: 5px;    
+	height: 8px;
+  background-color: #fff;  
+}  
+
+/*定义滑块 内阴影+圆角*/  
+::-webkit-scrollbar-thumb  
+{  
+    border-radius: 10px;  
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  */
+    background-color: rgba(0,0,0,.3);  
+}  

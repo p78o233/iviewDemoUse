@@ -1,0 +1,56 @@
+.container {
+  height: 97%;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  .btn-nav {
+    height: 34px;
+    display: flex;
+  }
+}
+.pop-container {
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  top: 0;  
+  width: 100%;
+  overflow-y:scroll;
+  height: 100%; 
+  .pop-content{
+    width:60%;
+    margin:2% auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 8px #ccc;
+    position:relative;
+    .close-btn{
+      position:absolute;
+      right: 20px;
+      top:10px;
+      font-size: 26px;
+    }
+  }
+}
+
+
+.space {
+  width: 20px;
+}
+.bounce-enter-active {
+  animation: bounce-in .5s;
+}
+.bounce-leave-active {
+  animation: bounce-in .5s reverse;
+}
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
